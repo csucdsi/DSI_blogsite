@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Juan Cortes">
 
-<title>Data Science at Chico State - Student Projects</title>
+<title>Data Science at Chico State - The CFO Office Sign-in Dashboard App</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/DSI_Avatar_03.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/DSI_Avatar_03.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,40 +60,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -104,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/DSI_Avatar_03.ico" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/DSI_Avatar_03.ico" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data Science at Chico State</span>
     </a>
   </div>
@@ -118,23 +86,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html" rel="" target="">
+    <a class="nav-link" href="../../news.html" rel="" target="">
  <span class="menu-text">News &amp; Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./datahub.html" rel="" target="">
+    <a class="nav-link" href="../../datahub.html" rel="" target="">
  <span class="menu-text">Wildcat Data Hub</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./communityCoding.html" rel="" target="">
+    <a class="nav-link" href="../../communityCoding.html" rel="" target="">
  <span class="menu-text">Community Coding</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
  <span class="menu-text">Student Projects</span></a>
   </li>  
 </ul>
@@ -168,86 +136,184 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Student Projects</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#juans-2024-ds-capstone" id="toc-juans-2024-ds-capstone" class="nav-link active" data-scroll-target="#juans-2024-ds-capstone">Juan’s 2024 DS Capstone</a></li>
+  <li><a href="#the-cfo-office-sign-in-dashboard-app" id="toc-the-cfo-office-sign-in-dashboard-app" class="nav-link" data-scroll-target="#the-cfo-office-sign-in-dashboard-app">The CFO Office Sign-in Dashboard App</a>
+  <ul class="collapse">
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#interactive-dashboard" id="toc-interactive-dashboard" class="nav-link" data-scroll-target="#interactive-dashboard">Interactive Dashboard</a></li>
+  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#platforms-used" id="toc-platforms-used" class="nav-link" data-scroll-target="#platforms-used">Platforms used</a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
+  <li><a href="#data-collection-wrangling" id="toc-data-collection-wrangling" class="nav-link" data-scroll-target="#data-collection-wrangling">Data Collection &amp; Wrangling</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The CFO Office Sign-in Dashboard App</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>This page highlights the innovative work of our talented students from the <a href="https://catalog.csuchico.edu/colleges-departments/college-natural-sciences/mathematics/data-science-certificate">Data Science Certificate program</a> or the <a href="https://www.csuchico.edu/math/degrees/msdsa.shtml">Masters in Data Science and Analytics</a>. Projects span a diverse range from academic research, community collaborations, and real-world applications, demonstrating the impact and creativity of our upcoming data professionals. Each project is linked directly to a Github repository with more details about the project, including if the project has good next steps that can be built on by another person.</p>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Juan Cortes </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="img/cf-logo.png" alt="CalFresh logo" style="float: center;" width="0%"></p>
+<p><img src="img/cf-logo2.jpg" alt="CalFresh logo" style="float: center;" width="100%"></p>
+<section id="juans-2024-ds-capstone" class="level1">
+<h1>Juan’s 2024 DS Capstone</h1>
+</section>
+<section id="the-cfo-office-sign-in-dashboard-app" class="level1">
+<h1>The CFO Office Sign-in Dashboard App</h1>
+<p>This project is a web application developed using Shiny, an R package for building interactive web applications, enabling dynamic data presentation and user interaction.</p>
+<p>My capstone project centered around streamlining common data analysis processes for Chico State’s Student Services Center (SSC) <a href="https://chicostatecalfresh.org/get-calfresh/">CalFresh</a> Outreach (CFO) office - a federally funded program (formerly known as food stamps) that helps students buy groceries. At Chico State, CalFresh Outreach assists students in checking eligibility, applying, and maintaining benefits.</p>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>The CFO Office Sign-in Sheet recorded information about walk-in student visits to Chico State’s Student Services Center (SSC) CalFresh Outreach (CFO) office.</p>
+<p>The goal was to create a Dynamic Report using the Shiny app, data analyses, and final reports to keep track of visits to the office. These includes:</p>
+<ul>
+<li>Daily visits</li>
+<li>Weekly visits</li>
+<li>Monthly visits</li>
+<li>Visits by Term</li>
+<li>Types of Assistance</li>
+<li>Repeated Assistance</li>
+<li>How they heard about CalFresh</li>
+</ul>
+</section>
+<section id="interactive-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-dashboard">Interactive Dashboard</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Click the ‘Get new data’ button to load the data.</p>
+</div>
+</div>
+<iframe src="https://rwrgfj-juan-cortes.shinyapps.io/CFOChico-Office-Visit-Tracker/" width="100%" height="600px">
+</iframe>
+</section>
+<section id="impact" class="level2">
+<h2 class="anchored" data-anchor-id="impact">Impact</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Question
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>How does this project make a difference? (e.g., improve decision-making, provide insights)</strong></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>CFO Team:</strong> Saves time by reducing manual data entry. Improves record keeping and organization. Enhances workflow to better serve students.</p>
+<p><strong>Chico State Students:</strong> Provides access to information about campus resources. Supports basic needs, benefiting low-income, first-generation, and underrepresented students.</p>
+<p><strong>Stakeholders</strong> Delivers insights regarding their Federal support. Facilitates dissemination tracking for short-term CFO outcomes.</p>
+</div>
+</div>
+</section>
+<section id="platforms-used" class="level2">
+<h2 class="anchored" data-anchor-id="platforms-used">Platforms used</h2>
+<ul>
+<li>R Studio: Used for coding, data analysis, and visualization.</li>
+<li>Shiny: R package for building interactive web applications, enabling dynamic data presentation and user interaction.</li>
+<li>Google Sheets: A cloud-based spreadsheet tool for real-time data collection, storage, and collaborative work.</li>
+<li>Box: A cloud storage platform used for file sharing and collaborative document management.</li>
+<li>GitHub: Version control and code collaboration platform for managing code and tracking changes.</li>
+</ul>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<p>To create a Dynamic Report using the Shiny app, data analyses, and final reports to keep track of visits to the office. This includes:</p>
+<ul>
+<li>Daily, weekly, &amp; monthly visits</li>
+<li>Visits by Term</li>
+<li>Types of Assistance</li>
+<li>Repeated Assistance</li>
+<li>How they heard about CalFresh</li>
+</ul>
+</section>
+<section id="data-collection-wrangling" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-wrangling">Data Collection &amp; Wrangling</h2>
+<p>Data was collected through a Google Form, which gathers:</p>
+<ul>
+<li>History of visits</li>
+<li>Source of awareness about the SSC CFO office</li>
+<li>Type of services sought</li>
+<li>Name of the assistor</li>
+</ul>
+<div style="display: flex; align-items: flex-start; margin-bottom: 1em;">
+  <!-- Left column: image -->
+  <img src="img/Juan.png" alt="Juan Cortes" width="30%" style="margin-right: 1em;">
+
+  <!-- Right column: text -->
+  <div>
+  
+  <p><strong>Juan Cortes</strong></p>
+    <p><strong>Project Assistant</strong></p>
+    <p><strong>Contact:</strong> jccortes-aguiar@csuchico.edu</p>
+
+    <p>
+      Juan is from the Central Coast of California. He graduated from CSU Chico
+      with a BS in Mathematics (Statistics). He initially joined the DAFANH
+      team as a Research and Evaluation intern and later transitioned to a
+      staff role as a Program Assistant and Peer Mentor for the DAFANH 2024
+      Cohort. Juan enjoys the art of statistics, particularly in applying
+      analytical skills to real-world problems. Outside of his academic and
+      professional pursuits, he enjoys reading, playing the guitar, and
+      weightlifting.
+
+  </p></div>
+</div>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1738273398545" data-listing-reading-time-sort="5">
-<a href="./projects/2024-09-29-Sauls-Post/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="projects/2024-09-29-Sauls-Post/Sauls-image.png" alt="chcRne logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Saul’s 2024 DS Capstone
-</h5>
-<div class="card-text listing-description">
-<br>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Saul Mooradian
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1738975427429" data-listing-reading-time-sort="3">
-<a href="./projects/2024-12-31-Juans-Post copy/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="projects/2024-12-31-Juans-Post copy/img/cf-logo.png" alt="CalFresh logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The CFO Office Sign-in Dashboard App
-</h5>
-<div class="card-text listing-description">
-This project is a web application developed using Shiny, an R package for building interactive web applications, enabling dynamic data presentation and user interaction.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Juan Cortes
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <link rel="stylesheet" href="styles.css">
 <footer class="custom-footer">
   <div class="footer-container">

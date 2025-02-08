@@ -1015,6 +1015,48 @@
     "text": "Resources for package creation\nIt is easy to be intimidated by scary phrases like “package development”, but R makes building packages relatively simple, with the option to add complexity. You can learn about and create a basic package in less than two hours. Also, Hadley Wickham and Jennifer Bryan have a wonderful book called R Packages that offers a more detailed introduction to package building - a book I relied heavily on during this project.\nThank you Robin Donatello, the Chico State Statistics Department, and the CHC team! This project would not have been possible without your guidance/mentoring over the last few years."
   },
   {
+    "objectID": "projects/2024-12-31-Juans-Post copy/index.html#goal",
+    "href": "projects/2024-12-31-Juans-Post copy/index.html#goal",
+    "title": "The CFO Office Sign-in Dashboard App",
+    "section": "Goal",
+    "text": "Goal\nThe CFO Office Sign-in Sheet recorded information about walk-in student visits to Chico State’s Student Services Center (SSC) CalFresh Outreach (CFO) office.\nThe goal was to create a Dynamic Report using the Shiny app, data analyses, and final reports to keep track of visits to the office. These includes:\n\nDaily visits\nWeekly visits\nMonthly visits\nVisits by Term\nTypes of Assistance\nRepeated Assistance\nHow they heard about CalFresh"
+  },
+  {
+    "objectID": "projects/2024-12-31-Juans-Post copy/index.html#interactive-dashboard",
+    "href": "projects/2024-12-31-Juans-Post copy/index.html#interactive-dashboard",
+    "title": "The CFO Office Sign-in Dashboard App",
+    "section": "Interactive Dashboard",
+    "text": "Interactive Dashboard\n\n\n\n\n\n\nTip\n\n\n\nClick the ‘Get new data’ button to load the data."
+  },
+  {
+    "objectID": "projects/2024-12-31-Juans-Post copy/index.html#impact",
+    "href": "projects/2024-12-31-Juans-Post copy/index.html#impact",
+    "title": "The CFO Office Sign-in Dashboard App",
+    "section": "Impact",
+    "text": "Impact\n\n\n\n\n\n\nQuestion\n\n\n\nHow does this project make a difference? (e.g., improve decision-making, provide insights)\n\n\n\n\n\n\n\n\nAnswer\n\n\n\nCFO Team: Saves time by reducing manual data entry. Improves record keeping and organization. Enhances workflow to better serve students.\nChico State Students: Provides access to information about campus resources. Supports basic needs, benefiting low-income, first-generation, and underrepresented students.\nStakeholders Delivers insights regarding their Federal support. Facilitates dissemination tracking for short-term CFO outcomes."
+  },
+  {
+    "objectID": "projects/2024-12-31-Juans-Post copy/index.html#platforms-used",
+    "href": "projects/2024-12-31-Juans-Post copy/index.html#platforms-used",
+    "title": "The CFO Office Sign-in Dashboard App",
+    "section": "Platforms used",
+    "text": "Platforms used\n\nR Studio: Used for coding, data analysis, and visualization.\nShiny: R package for building interactive web applications, enabling dynamic data presentation and user interaction.\nGoogle Sheets: A cloud-based spreadsheet tool for real-time data collection, storage, and collaborative work.\nBox: A cloud storage platform used for file sharing and collaborative document management.\nGitHub: Version control and code collaboration platform for managing code and tracking changes."
+  },
+  {
+    "objectID": "projects/2024-12-31-Juans-Post copy/index.html#variables",
+    "href": "projects/2024-12-31-Juans-Post copy/index.html#variables",
+    "title": "The CFO Office Sign-in Dashboard App",
+    "section": "Variables",
+    "text": "Variables\nTo create a Dynamic Report using the Shiny app, data analyses, and final reports to keep track of visits to the office. This includes:\n\nDaily, weekly, & monthly visits\nVisits by Term\nTypes of Assistance\nRepeated Assistance\nHow they heard about CalFresh"
+  },
+  {
+    "objectID": "projects/2024-12-31-Juans-Post copy/index.html#data-collection-wrangling",
+    "href": "projects/2024-12-31-Juans-Post copy/index.html#data-collection-wrangling",
+    "title": "The CFO Office Sign-in Dashboard App",
+    "section": "Data Collection & Wrangling",
+    "text": "Data Collection & Wrangling\nData was collected through a Google Form, which gathers:\n\nHistory of visits\nSource of awareness about the SSC CFO office\nType of services sought\nName of the assistor\n\n\n  \n  \n\n  \n  \n  \n  Juan Cortes\n    Project Assistant\n    Contact: jccortes-aguiar@csuchico.edu\n\n    \n      Juan is from the Central Coast of California. He graduated from CSU Chico\n      with a BS in Mathematics (Statistics). He initially joined the DAFANH\n      team as a Research and Evaluation intern and later transitioned to a\n      staff role as a Program Assistant and Peer Mentor for the DAFANH 2024\n      Cohort. Juan enjoys the art of statistics, particularly in applying\n      analytical skills to real-world problems. Outside of his academic and\n      professional pursuits, he enjoys reading, playing the guitar, and\n      weightlifting."
+  },
+  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News and Events",
@@ -1026,7 +1068,7 @@
     "href": "projects.html",
     "title": "Student Projects",
     "section": "",
-    "text": "This page highlights the innovative work of our talented students from the Data Science Certificate program or the Masters in Data Science and Analytics. Projects span a diverse range from academic research, community collaborations, and real-world applications, demonstrating the impact and creativity of our upcoming data professionals. Each project is linked directly to a Github repository with more details about the project, including if the project has good next steps that can be built on by another person.\n\n\n\n\n\n\n\n\n\n\n\n\nSaul’s 2024 DS Capstone\n\n\n\n\n\n\nSaul Mooradian\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This page highlights the innovative work of our talented students from the Data Science Certificate program or the Masters in Data Science and Analytics. Projects span a diverse range from academic research, community collaborations, and real-world applications, demonstrating the impact and creativity of our upcoming data professionals. Each project is linked directly to a Github repository with more details about the project, including if the project has good next steps that can be built on by another person.\n\n\n\n\n\n\n\n\n\n\n\n\nSaul’s 2024 DS Capstone\n\n\n\n\n\n\nSaul Mooradian\n\n\n\n\n\n\n\n\n\n\n\n\nThe CFO Office Sign-in Dashboard App\n\n\n\n\n\n\nJuan Cortes\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
